@@ -1,18 +1,18 @@
 import './globals.css'
 import { Nunito } from 'next/font/google'
 
-import Navbar from "./components/navbar/Navbar"
+import Navbar from "./views/components/navbar/Navbar"
 import ToasterProvider from "./providers/ToasterProvider";
 
-import RegisterModal from './components/modals/RegisterModal';
-import LoginModal from "./components/modals/LoginModal";
-import RentModal from "./components/modals/RentModal";
+import RegisterModal from './views/components/modals/RegisterModal';
+import LoginModal from "./views/components/modals/LoginModal";
+import RentModal from "./views/components/modals/RentModal";
 
 
-import getCurrentUser from './actions/getCurrentUser';
-import ClientOnly from './components/ClientOnly';
-import { CrispProvider } from './components/crisp-provider';
-import SearchModal from './components/modals/SearchModal';
+import getCurrentUser from './controllers/actions/getCurrentUser';
+import ClientOnly from './views/components/ClientOnly';
+import { CrispProvider } from './views/components/crisp-provider';
+import SearchModal from './views/components/modals/SearchModal';
 
 
 
